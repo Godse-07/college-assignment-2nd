@@ -3,8 +3,10 @@ import java.io.*;
 public class Second {
     public static void main(String[] args) throws IOException {
         
-        InputStreamReader isr=new InputStreamReader(System.in);
-        BufferedReader br=new BufferedReader(isr);
+        // InputStreamReader isr=new InputStreamReader(System.in);
+        // BufferedReader br=new BufferedReader(isr);
+
+        BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 
         int arr[][]=new int[3][2];
 
